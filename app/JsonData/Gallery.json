@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "category": "Design and Print",
+    "title": "Calendar Prints",
+    "image": "/gallery/calendar-prints.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 2,
+    "category": "Product Customization",
+    "title": "Book Customization",
+    "image": "/gallery/book-customization.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 3,
+    "category": "Product Customization",
+    "title": "Diary Customization",
+    "image": "/gallery/diary-custom.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 4,
+    "category": "Product Customization",
+    "title": "Diary Customization",
+    "image": "/gallery/diary-customize.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 5,
+    "category": "Graphic Design",
+    "title": "Flyer",
+    "image": "/gallery/flyer (2).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 6,
+    "category": "Graphic Design",
+    "title": "Flyer",
+    "image": "/gallery/flyer (3).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 7,
+    "category": "Graphic Design",
+    "title": "Flyer",
+    "image": "/gallery/flyer (4).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 8,
+    "category": "Graphic Design",
+    "title": "Flyer",
+    "image": "/gallery/flyer (5).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 9,
+    "category": "Graphic Design",
+    "title": "Flyer",
+    "image": "/gallery/flyer (6).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 10,
+    "category": "Graphic Design",
+    "title": "Flyer",
+    "image": "/gallery/flyer (7).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 11,
+    "category": "Graphic Design",
+    "title": "Flyer",
+    "image": "/gallery/flyer (8).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 12,
+    "category": "Graphic Design",
+    "title": "Flyer",
+    "image": "/gallery/flyer.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 13,
+    "category": "Frame work",
+    "title": "Picture frame",
+    "image": "/gallery/frame-making.jpg",
+    "size": "standard"
+  },
+  
+  {
+    "id": 14,
+    "category": "Design and Print",
+    "title": "ID Card print",
+    "image": "/gallery/ID-cards.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 15,
+    "category": "Product Customization",
+    "title": "Nail extension customization",
+    "image": "/gallery/nail-extension.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 16,
+    "category": "Design and Print",
+    "title": "Rollup banner",
+    "image": "/gallery/Roll-up-banner.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 17,
+    "category": "Design and Print",
+    "title": "Sashes and Mufflers",
+    "image": "/gallery/sashes-muffler.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 18,
+    "category": "Product Customization",
+    "title": "Sign out T-shirts",
+    "image": "/gallery/sign-out-custom.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 20,
+    "category": "Product Customization",
+    "title": "T-shirt-customization",
+    "image": "/gallery/T-shirt-customization.jpg",
+    "size": "standard"
+  },
+  {
+    "id": 22,
+    "category": "Product Customization",
+    "title": "T-shirt-customization",
+    "image": "/gallery/T-shirt-customization (2).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 23,
+    "category": "Product Customization",
+    "title": "T-shirt-customization",
+    "image": "/gallery/T-shirt-customization (3).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 24,
+    "category": "Product Customization",
+    "title": "T-shirt-customization",
+    "image": "/gallery/T-shirt-customization (4).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 25,
+    "category": "Product Customization",
+    "title": "T-shirt-customization",
+    "image": "/gallery/T-shirt-customization (5).jpg",
+    "size": "standard"
+  },
+  {
+    "id": 27,
+    "category": "Design and Print",
+    "title": "Trifolds",
+    "image": "/gallery/Trifolds.jpg",
+    "size": "standard"
+  }
+]
