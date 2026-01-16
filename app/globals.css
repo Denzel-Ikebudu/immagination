@@ -67,8 +67,8 @@ body{
     top: 50%;
     left: 5%;
     transform: translate(-50%, -50%);
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     background-color: #000000;
     border-radius: 100%;
     box-shadow: 0 0 40px rgba(131, 131, 131, 0.3)
