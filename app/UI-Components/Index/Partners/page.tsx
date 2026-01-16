@@ -26,7 +26,7 @@ export default function PartnerCTA() {
             visionaries to build the next generation of brand legacies.
           </p>
           
-          <Link href="@/UI-Components/Pages/Partners">
+          <Link href="/Pages/Partners">                   
             <button className="group relative inline-flex items-center gap-3 bg-white text-black px-10 py-5 rounded-full font-bold transition-all hover:bg-[#FFD700]">
               Become a Partner
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />

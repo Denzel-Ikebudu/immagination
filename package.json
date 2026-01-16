@@ -1,5 +1,5 @@
 {
-  "name": "olivion",
+  "name": "immagination",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,10 +13,10 @@
     "bootstrap-icons": "^1.13.1",
     "framer-motion": "^12.23.25",
     "lucide-react": "^0.562.0",
-    "next": "^16.1.1",
-    "react": "19.2.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-countup": "^6.5.3",
-    "react-dom": "19.2.0",
     "react-icons": "^5.5.0",
     "remixicon": "^4.7.0",
     "swiper": "^12.0.3",

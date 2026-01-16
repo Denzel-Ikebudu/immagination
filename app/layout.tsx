@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, Cal_Sans, Golos_Text } from "next/font/google";
+import { Bebas_Neue, Montserrat, Golos_Text } from "next/font/google";
 import './globals.css';
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer"
@@ -16,7 +16,7 @@ const golostext = Golos_Text({
   subsets: ["latin"],
 })
 
-const Montserrat = Cal_Sans({
+const montserrat = Montserrat({
   weight: "400",
   variable: "--font-Montserrat",
   subsets: ["latin"],
@@ -27,6 +27,8 @@ export const metadata: Metadata = {
   description: "Immagination design",
 };
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -35,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Bebas.variable} ${golostext.variable} ${Montserrat.variable}`}
+        className={`${Bebas.variable} ${golostext.variable} ${montserrat.variable}`}
       >
         <Navbar />
         {children}
