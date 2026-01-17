@@ -10,7 +10,7 @@ import "swiper/css";
 export default function Hero() {
     return (
         <>
-            <div className="hero bg-(--black) text-(--white)">
+            <div className="hero bg-(--black) text-(--white) overflow-hidden">
                 <div className="hero-bg-elm2"></div>
                 <div className= "w-full px-[8%] lg:px-[12%] py-13">
                     <div className ="flex flex-col lg:flex-row gap-5 justify-between items-center">

@@ -43,7 +43,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`w-full transition-all duration-300 fixed top-0 left-0 z-50 border-b 
+      className={`w-full transition-all duration-300 fixed top-0 left-0 z-50 border-b overflow-hidden 
         ${isScrolled ? "bg-(--black) shadow-md" : "bg-(--black)/80"}`}
     >
       <div className="flex items-center justify-between px-4 sm:px-6 md:px-[8%] lg:px-[12%] py-3">
