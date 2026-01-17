@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Bebas.variable} ${golostext.variable} ${montserrat.variable}`}
+        className={`${Bebas.variable} ${golostext.variable} ${montserrat.variable} overflow-x-hidden`}
       >
         <Navbar />
         {children}

@@ -30,8 +30,8 @@ export default function PartnersPage() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-4xl mb-24"
         >
-          <h1 className="Montserrat text-6xl md:text-8xl font-bold mb-8 uppercase tracking-tighter">
-            Strategic <span className="text-[#0CB006]">Synergy</span>
+          <h1 className="Montserrat text-6xl md:text-7xl font-bold mb-8 uppercase tracking-tighter">
+            Strategic <span className="text-(--prim)">Synergy</span>
           </h1>
           <p className="GolosText text-xl text-gray-400 leading-relaxed">
             At IMMAGINATION, we believe that great brands aren’t built in isolation. 
@@ -66,8 +66,8 @@ export default function PartnersPage() {
               out within 48 hours to discuss how we can grow together.
             </p>
             <div className="space-y-4 text-gray-500">
-              <p>📧 partnerships@immagination.com</p>
-              <p>📍 Design Studio: Lagos, Nigeria</p>
+              <p>immaginationbiog@gmail.com</p>
+              <p>📍 Design Studio: Enugu, Nigeria</p>
             </div>
           </div>
 
@@ -87,7 +87,7 @@ export default function PartnersPage() {
               rows={4} 
               className="w-full bg-black border border-gray-700 p-4 rounded-xl focus:border-[#0CB006] outline-none"
             />
-            <button className="w-full bg-[#0CB006] text-black font-bold py-4 rounded-xl hover:bg-white transition-colors">
+            <button className="w-full bg-(--G1) text-black font-bold py-4 rounded-xl hover:bg-white transition-colors">
               Send Proposal
             </button>
           </form>

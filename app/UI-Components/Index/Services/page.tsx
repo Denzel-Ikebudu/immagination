@@ -72,7 +72,7 @@ export default function Services() {
             >
               <div className="flex flex-col md:flex-row w-full md:w-[70%] gap-4 md:gap-12">
                 {/* Number with your Vibrant Yellow */}
-                <h4 className="text-4xl Montserrat text-(--white) font-bold">
+                <h4 className="text-4xl Montserrat text-white font-bold">
                   {service.id}
                 </h4>
                 <div className="service-content">

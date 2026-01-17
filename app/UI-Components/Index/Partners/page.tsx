@@ -5,7 +5,7 @@ import { Handshake, ArrowRight } from "lucide-react";
 
 export default function PartnerCTA() {
   return (
-    <section className="px-[8%] lg:px-[12%] py-24 bg-[#0a0a0a]">
+    <section className="px-[8%] lg:px-[12%] py-24 bg-(--black)">
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ export default function PartnerCTA() {
             visionaries to build the next generation of brand legacies.
           </p>
           
-          <Link href="/Pages/Partners">                   
+          <Link href="/UI-Components/Pages/Partners">                   
             <button className="group relative inline-flex items-center gap-3 bg-white text-black px-10 py-5 rounded-full font-bold transition-all hover:bg-[#FFD700]">
               Become a Partner
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />

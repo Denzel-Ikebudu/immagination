@@ -77,8 +77,8 @@ export default function About() {
 
       <div className="px-[8%] lg:px-[12%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {statsData.map((item, index) => (
-          <div key={index} className="about-card text-(--black)">
-            <h2 className="text-5xl tracking-wider Montserrat font-bold mb-6 text-(--black)">
+          <div key={index} className="about-card text-black">
+            <h2 className="text-5xl tracking-wider Montserrat font-bold mb-6 text-black">
               <CountUp
                 start={0}
                 end={item.value}

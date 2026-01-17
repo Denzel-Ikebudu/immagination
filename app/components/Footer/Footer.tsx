@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function Footer() {
   const navLinks1 = [
     { name: "About the CEO", href: "https://anukwu-chekwube.vercel.app" },
-    { name: "Services", href: "/UI-Components/Pages/Services" },
+    { name: "Services", href: "#service-section" },
     { name: "Our Team", href: "/UI-Components/Pages/Teams" },
   ];
 
   const navLinks2 = [
     { name: "Gallery", href: "/UI-Components/Pages/Gallery" },
-    { name: "Partners", href: "/" },
+    { name: "Partners", href: "/UI-Components/Pages/Partners" },
     { name: "Terms & Conditions", href: "/" },
   ];
 
@@ -38,7 +38,7 @@ export default function Footer() {
 
   return (
     <>
-      <div id="footer-section" className="px-[8%] lg:px-[12%] pb-20 pt-10 mb-0 footer relative bg-(--black)">
+      <div id="footer-section" className="px-[8%] lg:px-[12%] pb-20 pt-10 mb-0 footer relative bg-black">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-15">
           <div className="footer-content">
             <Link
