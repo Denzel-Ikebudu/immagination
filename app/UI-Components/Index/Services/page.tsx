@@ -38,7 +38,7 @@ const servicesData = [
 export default function Services() {
   return (
     <>
-      <div id="service-section" className="px-[8%] lg:px-[12%] pt-20 pb-60 service relative bg-black">
+      <div id="service-section" className="px-[8%] lg:px-[12%] pt-20 pb-60 service relative bg-black overflow-hidden">
         
         {/* --- Header Section --- */}
         <div className="flex flex-col lg:flex-row gap-10">
