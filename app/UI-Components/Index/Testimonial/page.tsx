@@ -37,7 +37,7 @@ export default function Testimonial() {
                 </span>
               </div>
               <div className="w-full lg:w-1.2">
-                <h1 className="Montserrat text-5xl md:text-6xl">
+                <h1 className="Montserrat text-4xl md:text-6xl">
                   Here's what{" "}
                   <span className="text-(--G1)"> warm words our clients</span>{" "}
                   say
@@ -45,7 +45,7 @@ export default function Testimonial() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row items-start md:items-center gap-5 mt-5">
-              <h1 className="text-6xl Montserrat">4.80</h1>
+              <h1 className="text-5xl Montserrat">4.80</h1>
               <div className="flex flex-col items-center">
                 <div className="stars-icon flex items-center gap-1 bg-(--G1) text-white px-3 py-1 rounded-full">
                   <i className="bi bi-star-fill text-xs"></i>
