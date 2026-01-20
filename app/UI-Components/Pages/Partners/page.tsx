@@ -1,6 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import { Briefcase, Paintbrush, Truck } from "lucide-react";
+import React, { useRef, useState } from "react"; // Added hooks
+import emailjs from "@emailjs/browser"; // Added EmailJS
 
 const tiers = [
   {
@@ -21,6 +23,37 @@ const tiers = [
 ];
 
 export default function PartnersPage() {
+  const form = useRef<HTMLFormElement>(null);
+  const [isSending, setIsSending] = useState(false);
+  const [status, setStatus] = useState("");
+
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSending(true);
+
+    if (!form.current) return;
+
+    emailjs
+      .sendForm(
+        "service_9mjpdw1",     // Your Service ID
+        "template_1ox76r5",    // Your Template ID
+        form.current,
+        "lw0bZyQP3JkaeoIfw"    // Your Public Key
+      )
+      .then(
+        () => {
+          setStatus("SUCCESS");
+          setIsSending(false);
+          form.current?.reset(); // Clear form after success
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          setStatus("ERROR");
+          setIsSending(false);
+        }
+      );
+  };
+
   return (
     <main className="bg-black min-h-screen text-white pt-32 pb-20">
       <div className="px-[8%] lg:px-[12%]">
@@ -71,25 +104,47 @@ export default function PartnersPage() {
             </div>
           </div>
 
-          <form className="bg-[#121212] p-10 rounded-3xl border border-gray-800 space-y-6">
+          <form 
+            ref={form} 
+            onSubmit={sendEmail} 
+            className="bg-[#121212] p-10 rounded-3xl border border-gray-800 space-y-6"
+          >
             <input 
+              name="from_name" 
               type="text" 
               placeholder="Full Name" 
+              required
               className="w-full bg-black border border-gray-700 p-4 rounded-xl focus:border-[#0CB006] outline-none"
             />
             <input 
+              name="reply_to" 
               type="email" 
               placeholder="Business Email" 
+              required
               className="w-full bg-black border border-gray-700 p-4 rounded-xl focus:border-[#0CB006] outline-none"
             />
             <textarea 
+              name="message"
               placeholder="How would you like to partner?" 
               rows={4} 
+              required
               className="w-full bg-black border border-gray-700 p-4 rounded-xl focus:border-[#0CB006] outline-none"
             />
-            <button className="w-full bg-(--G1) text-black font-bold py-4 rounded-xl hover:bg-white transition-colors">
-              Send Proposal
+            
+            <button 
+              type="submit"
+              disabled={isSending}
+              className="w-full bg-(--G1) text-black font-bold py-4 rounded-xl hover:bg-white transition-colors disabled:opacity-50"
+            >
+              {isSending ? "Sending..." : "Send Proposal"}
             </button>
+
+            {status === "SUCCESS" && (
+              <p className="text-green-500 text-center">Proposal sent successfully!</p>
+            )}
+            {status === "ERROR" && (
+              <p className="text-red-500 text-center">Something went wrong. Please try again.</p>
+            )}
           </form>
         </div>
       </div>

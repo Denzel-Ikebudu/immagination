@@ -9,7 +9,7 @@ const servicesData = [
     id: "01",
     title: "Premium Print & Production",
     description:
-      "We design and print eye-catching banners, flyers, and customized products like diaries, pens, T-shirts, and handbills. We also offer professional branding for frames—if it can be printed, we can do it.",
+      "Your brand, rendered with precision. From high-impact banners to bespoke corporate essentials, we turn your vision into tangible excellence.",
     image: "/services/Service1.jpg", 
   },
   {
@@ -23,14 +23,14 @@ const servicesData = [
     id: "03",
     title: "Graphic Design & Brand Identity",
     description:
-      "Crafting comprehensive identity systems for startups and established brands, including memorable logos, visual guidelines, and strategic positioning to create a cohesive brand voice.",
+      "Memorable logos. Strategic positioning. Cohesive design. We create the visual DNA that allows your brand to stand out",
     image: "/services/service-4.jpg",
   },
   {
     id: "04",
     title: "Print and Design Tutor",
     description:
-      "Providing expert guidance for aspiring creatives and businesses. Through one-on-one mentorship and strategic consulting, we help you master digital tools and build a professional creative foundation.",
+      "Master the craft. Own the market. Our mentorship and consulting programs provide the blueprints to help you navigate digital tools and build a professional creative legacy that lasts",
     image: "/services/service-5.jpg",
   },
 ];

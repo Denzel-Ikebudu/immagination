@@ -5,6 +5,7 @@ export default function Footer() {
     { name: "About the CEO", href: "https://anukwu-chekwube.vercel.app" },
     { name: "Services", href: "#service-section" },
     { name: "Our Team", href: "/UI-Components/Pages/Teams" },
+    { name: "Academy", href: "/UI-Components/Pages/Acdademy" },
   ];
 
   const navLinks2 = [

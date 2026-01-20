@@ -13,7 +13,7 @@ const CountUp = dynamic(() => import("react-countup"), { ssr: false });
 const statsData = [
   {
     value: 3,
-    suffix: "+",
+    suffix: "",
     title: "Year experience",
     desc: "Elevating brands with expert design strategy for over 3 years",
   },
@@ -43,7 +43,7 @@ export default function About() {
             </span>
           </div>
           <div className="w-full lg:w-2/3">
-            <h1 className="Montserrat text-4xl md:text-6xl">
+            <h1 className="Montserrat text-3xl md:text-6xl">
               We Shape{" "}
               <span className="text-(--G1)">Brand Identities Through Purposeful</span>{" "}
                 Design and Printing

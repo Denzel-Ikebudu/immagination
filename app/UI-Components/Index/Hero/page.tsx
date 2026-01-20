@@ -19,7 +19,7 @@ export default function Hero() {
                                 <span className="hero-span border border-gray-400 GolosText font-bold px-5 py-2 rounded-full">
                                     Trusted Design Partner
                                 </span>
-                                <h1 className="text-5xl lg:text-7xl Montserrat my-5 leading-none">Bringing your <br /><span className="text-(--G1)">    thoughts to life</span></h1>
+                                <h1 className="text-4xl lg:text-7xl Montserrat my-5 leading-none">Bringing your <br /><span className="text-(--G1)">    thoughts to life</span></h1>
                                 <p className="text-gray-400 w-full md:w-[60%]">Whether it’s your personal brand, office identity, or a commercial project, we are dedicated to bringing your vision to life with unmatched precision and flair</p>
                                 <button className="mt-9 border border-gray-500/50 px-5 py-3 rounded-full GolosText font-semibold hover:bg-(--G1)
                                     hover:text-(--white) hover:border-transparent transition-all duration-300 cursor-pointer group">

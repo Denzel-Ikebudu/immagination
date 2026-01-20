@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Anukwu Chekwube",
+    "role": "CEO & Founder",
+    "imageUrl": "/team/member1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Okoro Amarachi Francisca",
+    "role": "Financial Secetary/Advisor",
+    "imageUrl": "/team/member2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ikebudu Denzel",
+    "role": "Web Designer/ Developer",
+    "imageUrl": "/team/member3.png"
+  }
+]

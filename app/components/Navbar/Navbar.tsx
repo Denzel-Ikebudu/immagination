@@ -12,8 +12,10 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
   { label: "Home", href: "/" },
-  { label: "Partners", href: "/UI-Components/Pages/Partners" },
   { label: "Gallery", href: "/UI-Components/Pages/Gallery" },
+  { label: "Partner", href: "/UI-Components/Pages/Partners" },
+  { label: "Team", href: "/UI-Components/Pages/Teams"},
+  { label: "Academy", href: "/UI-Components/Pages/Academy"}
 ];
 
 export default function Navbar() {
