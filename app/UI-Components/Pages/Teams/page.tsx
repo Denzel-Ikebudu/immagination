@@ -50,12 +50,11 @@ export default function TeamSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {teamData.map((member) => (
             <motion.div
               key={member.id}
-            //   variants={cardVariants}
               whileHover={{ y: -10 }}
               className="group relative bg-[#121212] rounded-[2rem] border border-gray-800 overflow-hidden hover:border-[var(--prim)] transition-all duration-500"
             >

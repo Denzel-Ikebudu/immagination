@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Anukwu Chekwube",
     "role": "CEO & Founder",
-    "imageUrl": "/team/member1.jpg"
+    "imageUrl": "/team/member.jpg"
   },
   {
     "id": 2,
@@ -16,5 +16,11 @@
     "name": "Ikebudu Denzel",
     "role": "Web Designer/ Developer",
     "imageUrl": "/team/member3.png"
+  },
+  {
+    "id": 4,
+    "name": "Peace Madueke",
+    "role": "PR Head and Brand Identity creator",
+    "imageUrl": "/team/testimonial-2.jpg"
   }
 ]

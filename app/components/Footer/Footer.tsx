@@ -5,13 +5,13 @@ export default function Footer() {
     { name: "About the CEO", href: "https://anukwu-chekwube.vercel.app" },
     { name: "Services", href: "#service-section" },
     { name: "Our Team", href: "/UI-Components/Pages/Teams" },
-    { name: "Academy", href: "/UI-Components/Pages/Acdademy" },
+    { name: "Academy", href: "/UI-Components/Pages/Academy" },
   ];
 
   const navLinks2 = [
     { name: "Gallery", href: "/UI-Components/Pages/Gallery" },
     { name: "Partners", href: "/UI-Components/Pages/Partners" },
-    { name: "Terms & Conditions", href: "/" },
+    { name: "Terms & Conditions", href: "/UI-Compononts/Pages/Terms" },
   ];
 
   const socialLinks = [
