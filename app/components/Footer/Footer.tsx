@@ -11,7 +11,7 @@ export default function Footer() {
   const navLinks2 = [
     { name: "Gallery", href: "/UI-Components/Pages/Gallery" },
     { name: "Partners", href: "/UI-Components/Pages/Partners" },
-    { name: "Terms & Conditions", href: "/UI-Compononts/Pages/Terms" },
+    { name: "Terms & Conditions", href: "/UI-Components/Pages/Terms" },
   ];
 
   const socialLinks = [

@@ -55,6 +55,7 @@ export default function Navbar() {
             width={50}
             height={50}
             className="p-0"
+            priority
           />
           <Link
             href="/"

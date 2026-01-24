@@ -56,6 +56,7 @@ export default function About() {
               src={AboutImg1}
               alt="AboutImg1"
               className="rounded-3xl transition-all duration-300 hover:-translate-y-1.5"
+              priority
             />
           </div>
           <div className="about-image lg:pt-10">
@@ -63,6 +64,7 @@ export default function About() {
               src={AboutImg2}
               alt="AboutImg1"
               className="rounded-3xl transition-all duration-300 hover:-translate-y-1.5"
+              priority
             />
           </div>
           <div className="about-image lg:pt-20">
@@ -70,6 +72,7 @@ export default function About() {
               src={AboutImg3}
               alt="AboutImg1"
               className="rounded-3xl transition-all duration-300 hover:-translate-y-1.5"
+              priority
             />
           </div>
         </div>

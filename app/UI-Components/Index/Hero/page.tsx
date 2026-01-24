@@ -36,6 +36,7 @@ export default function Hero() {
                                         src={HeroImg}
                                         alt="HeroImg"
                                         className="w-full h-full rounded-2xl"
+                                        priority
                                     />
                                 </div>
                             </div>
